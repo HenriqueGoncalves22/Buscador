@@ -1,0 +1,134 @@
+/* App.module.css */
+.container {
+    position: absolute;
+    border-radius: 5%;
+    height: 520px;
+    width: 530px;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#121212, #1e2f5e);
+}
+
+.title {
+    font-size: 200px;
+    background: #20202000;
+    color: #fff;
+}
+
+@keyframes flipTile {
+    from {
+        transform: rotateX(90deg);
+    }
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+.nome {
+    color: #FFF;
+    margin-top: -20px;
+    font-size: 20px;
+
+}
+
+.containerNome input{
+    padding: 15px;
+    height: 5px;
+    font-size: 15px;
+    margin: 2px 2px 2px 2px;
+}
+
+.containerNome{
+    display: flex;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 8px 3px 8px rgba(0, 0, 0, 0.295);
+    background-color: transparent;
+    color: #FFF;
+    outline: none;
+    padding: 5px;
+}
+
+.containerInput input {
+    padding: 20px;
+    height: 5px;
+    font-size: 16px;
+}
+
+.containerInput {
+    border: 0;
+    display: flex;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 8px 3px 8px rgba(0, 0, 0, 0.295);
+    background-color: transparent;
+    color: #FFF;
+    outline: none;
+    padding: 5px;
+}
+
+
+.buttonSearch {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    margin: 8px;
+    margin-top: -8px;
+    font-size: 38px;
+}
+
+.main h2 {
+    margin: 16px 0;
+    font-size: 39px;
+}
+
+.main span {
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media (max-width: 620px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .main h2 {
+        font-size: 28px;
+    }
+
+    .main {
+        width: 80%;
+        min-height: 250px;
+    }
+}
+
+body {
+    background-image: url(../img/city-night-art-wallpaper-2048x1536_26.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
